@@ -13,7 +13,6 @@ import Header from './components/global/Header/Header.vue';
 body {
   font-family: 'yekan';
   direction: rtl;
-
 }
 
 * {
