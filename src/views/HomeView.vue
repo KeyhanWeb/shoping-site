@@ -1,6 +1,7 @@
-<script setup></script>
-<template>
-  <h1>test</h1>
+<script setup>
+  
+</script>
 
-  <h2></h2>
+<template>
+
 </template>
