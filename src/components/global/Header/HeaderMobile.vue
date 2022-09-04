@@ -20,7 +20,7 @@
       </div>
       <!-- logo -->
       <div class="h-6">
-        <img src="../../assets/img/logo.svg" class="h-full cursor-pointer" alt="logo" />
+        <img src="@/assets/images/logo.svg" class="h-full cursor-pointer" alt="logo" />
       </div>
       <!-- help -->
       <div class="">

@@ -1,5 +1,5 @@
 <script setup>
-import NavBar from '../NavBar/NavBar.vue';
+// import NavBar from '../NavBar/NavBar.vue';
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import NavBar from '../NavBar/NavBar.vue';
 
         <!-- logo -->
         <div class="h-8">
-          <img src="../../assets/img/logo.svg" class="h-full cursor-pointer" alt="logo" />
+          <img src="@/assets/images/logo.svg" class="h-full cursor-pointer" alt="logo" />
         </div>
 
         <div class="
@@ -54,7 +54,7 @@ import NavBar from '../NavBar/NavBar.vue';
     </div>
 
     <div class="nav-menu w-full ">
-      <NavBar />
+      <!-- <NavBar /> -->
     </div>
 
 
