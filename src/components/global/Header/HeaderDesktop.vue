@@ -1,5 +1,5 @@
 <script setup>
-// import NavBar from '../NavBar/NavBar.vue';
+import NavBar from '../NavBar/NavBar.vue';
 </script>
 
 <template>
@@ -54,7 +54,7 @@
     </div>
 
     <div class="nav-menu w-full ">
-      <!-- <NavBar /> -->
+      <NavBar />
     </div>
 
 
