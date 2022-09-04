@@ -1,13 +1,14 @@
 <script setup>
-import TopSlider from '@/components/HomePage/Sliders/TopSlider.vue';
+import TopSlider from '@/components/global/Sliders/TopSlider.vue';
+import SliderOffer from '@/components/global/Sliders/SliderOffer.vue';
+import ServicesBrand from '@/components/HomePage/services-brand/ServicesBrand.vue';
+import CategoryGroup from '@/components/global/Category-Grouping/CategoryGroup.vue';
+
 import topSlider from '@/data/topSlider';
 import offerAmazing from  '@/data/offerAmazing'
 import dataCategorySection from '@/data/dataCategorySection';
-import { ref } from 'vue';
-import ServicesBrand from '@/components/HomePage/services-brand/ServicesBrand.vue';
-import SliderOffer from '@/components/HomePage/Sliders/SliderOffer.vue';
-import CategoryGroup from '@/components/global/Category-Grouping/CategoryGroup.vue';
 
+import { ref } from 'vue';
 
 const dataTopSlider = ref(topSlider)
 const dataOfferAmazing = ref(offerAmazing)
