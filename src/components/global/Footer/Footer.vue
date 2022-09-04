@@ -5,30 +5,30 @@ const showDescription = ref(false);
 
 const SocialNetworks = reactive([
   {
-    img: require("../../assets/img/footer/icons8-instagram-100.png"),
+    img: require("@/assets/images/footer/icons8-instagram-100.png"),
   },
   {
-    img: require("../../assets/img/footer/icons8-twitter-100.png"),
+    img: require("@/assets/images/footer/icons8-twitter-100.png"),
   },
   {
-    img: require("../../assets/img/footer/icons8-linkedin-100.png"),
+    img: require("@/assets/images/footer/icons8-linkedin-100.png"),
   },
   {
-    img: require("../../assets/img/footer/icons8-aparat-100.png"),
+    img: require("@/assets/images/footer/icons8-aparat-100.png"),
   },
 ]);
 const imgPelatform = reactive([
   {
-    imgApp: require("../../assets/img/footer/google-play.svg"),
+    imgApp: require("@/assets/images/footer/google-play.svg"),
   },
   {
-    imgApp: require("../../assets/img/footer/coffe-bazzar.svg"),
+    imgApp: require("@/assets/images/footer/coffe-bazzar.svg"),
   },
   {
-    imgApp: require("../../assets/img/footer/sib-app.svg"),
+    imgApp: require("@/assets/images/footer/sib-app.svg"),
   },
   {
-    imgApp: require("../../assets/img/footer/myket.svg"),
+    imgApp: require("@/assets/images/footer/myket.svg"),
   },
   {
     // more:"hidden lg:flex",
@@ -37,23 +37,23 @@ const imgPelatform = reactive([
 ]);
 const imgServices = reactive([
   {
-    imgServ: require("../../assets/img/footer/express-delivery.svg"),
+    imgServ: require("@/assets/images/footer/express-delivery.svg"),
     title: "امکان تحویل اکسپرس",
   },
   {
-    imgServ: require("../../assets/img/footer/cash-on-delivery.svg"),
+    imgServ: require("@/assets/images/footer/cash-on-delivery.svg"),
     title: "امکان پرداخت در محل ",
   },
   {
-    imgServ: require("../../assets/img/footer/days-return.svg"),
+    imgServ: require("@/assets/images/footer/days-return.svg"),
     title: "7روز هفته , 24 ساعته",
   },
   {
-    imgServ: require("../../assets/img/footer/original-products.svg"),
+    imgServ: require("@/assets/images/footer/original-products.svg"),
     title: "7 روز ضمانت بازگشت کالا",
   },
   {
-    imgServ: require("../../assets/img/footer/support.svg"),
+    imgServ: require("@/assets/images/footer/support.svg"),
     title: "ضمانت اصل بودن کالا",
   },
 ]);
@@ -118,7 +118,7 @@ const Description = reactive([
     <div class="top-footer w-[93%] flex justify-between m-auto xl:w-[97%]">
       <div class="logo-support ">
         <div class="logo">
-          <img src="../../assets/img/footer/digi.svg" alt="" class="w-28" />
+          <img src="@/assets/images/footer/digi.svg" alt="" class="w-28" />
         </div>
         <div class="support mt-6 text-neutral700 text-[11px] lg:text-[12px] flex items-center flex-col  lg:flex-row ">
           <p class="lg:ml-3">         تلفن پشتیبانی 61930000 - 021</p>
@@ -287,7 +287,7 @@ const Description = reactive([
       >
         <div class="logo mt-4 flex lg:mt-7 xl:mt-2">
           <img
-            src="../../assets/img/footer/footerlogo2.png"
+            src="@/assets/images/footer/footerlogo2.png"
             alt=""
             class="w-7 h-7 ml-3 lg:w-9 lg:h-9 xl:w-11 xl:h-11 "
           />
@@ -347,17 +347,17 @@ const Description = reactive([
       <div class="namad w-full m-auto mt-5 lg:w-[30%]">
         <div class="item-img w-full flex justify-center">
           <img
-            src="../../assets/img/footer/rezi.png"
+            src="@/assets/images/footer/rezi.png"
             alt=""
             class="w-[90px] h-[90px] mr-3 rounded"
           />
           <img
-            src="../../assets/img/footer/kasbokar.png"
+            src="@/assets/images/footer/kasbokar.png"
             alt=""
             class="w-[90px] h-[90px] mr-3 rounded"
           />
           <img
-            src="../../assets/img/footer/enamad.png"
+            src="@/assets/images/footer/enamad.png"
             alt=""
             class="w-[90px] h-[90px] mr-3 rounded"
           />
