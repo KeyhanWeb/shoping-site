@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: "موس گیمینگ",
-        imgSrc: require("../assets/img/offer-amazing/موس-گیمینگ.jpg"),
+        imgSrc: require("@/assets/images/offer-amazing/موس-گیمینگ.jpg"),
         orgPrice: "653,000",
         price: "589,000",
         discountPercent: 10,
@@ -12,7 +12,7 @@ export default [
     {
         id: 2,
         title: "سرویس تابه",
-        imgSrc: require("../assets/img/offer-amazing/سرویس-تابه.jpg"),
+        imgSrc: require("@/assets/images/offer-amazing/سرویس-تابه.jpg"),
         orgPrice: "475,000",
         price: "319,000",
         discountPercent: 33,
@@ -21,7 +21,7 @@ export default [
     {
         id: 3,
         title: "ترازو دیجیتال جامپر",
-        imgSrc: require("../assets/img/offer-amazing/ترازو-دیجیتال-جامپر.jpg"),
+        imgSrc: require("@/assets/images/offer-amazing/ترازو-دیجیتال-جامپر.jpg"),
         orgPrice: "2,525,000",
         price: "1,999,000",
         discountPercent: 21,
@@ -30,7 +30,7 @@ export default [
     {
         id: 4,
         title: " شارژر دیواری مدل کینگ استار",
-        imgSrc: require("../assets/img/offer-amazing/شارژر-دیواری.jpg"),
+        imgSrc: require("@/assets/images/offer-amazing/شارژر-دیواری.jpg"),
         orgPrice: "429,000",
         price: "239,000",
         discountPercent: 44,
@@ -39,7 +39,7 @@ export default [
     {
         id: 5,
         title: "عینک آفتابی زنانه",
-        imgSrc: require("../assets/img/offer-amazing/عینک-آفتابی-زنانه.jpg"),
+        imgSrc: require("@/assets/images/offer-amazing/عینک-آفتابی-زنانه.jpg"),
         orgPrice: "3,900,000",
         price: "677,000",
         discountPercent: 83,
@@ -48,7 +48,7 @@ export default [
     {
         id: 6,
         title: "قابلمه تفلون",
-        imgSrc: require("../assets/img/offer-amazing/قابلمه-تفلون.jpg"),
+        imgSrc: require("@/assets/images/offer-amazing/قابلمه-تفلون.jpg"),
         orgPrice: "6,600,000",
         price: "2,950,000",
         discountPercent: 55,
@@ -57,7 +57,7 @@ export default [
     {
         id: 7,
         title: "اتو مو باراباس",
-        imgSrc: require("../assets/img/offer-amazing/اتو-مو-باراباس.jpg"),
+        imgSrc: require("@/assets/images/offer-amazing/اتو-مو-باراباس.jpg"),
         orgPrice: "2,200,000",
         price: "500,000",
         discountPercent: 77,
@@ -66,7 +66,7 @@ export default [
     {
         id: 8,
         title: "هنزفری بلوتوثی لنوو",
-        imgSrc: require("../assets/img/offer-amazing/هنزفری-بلوتوثی-لنوو.jpg"),
+        imgSrc: require("@/assets/images/offer-amazing/هنزفری-بلوتوثی-لنوو.jpg"),
         orgPrice: "310,000",
         price: "295,000",
         discountPercent: 5,
@@ -75,7 +75,7 @@ export default [
     {
         id: 9,
         title: "کرم دست و صورت شون",
-        imgSrc: require("../assets/img/offer-amazing/کرم-دست-صورت-شون.jpg"),
+        imgSrc: require("@/assets/images/offer-amazing/کرم-دست-صورت-شون.jpg"),
         orgPrice: "47,400",
         price: "29,300",
         discountPercent: 38,
@@ -84,7 +84,7 @@ export default [
     {
         id: 10,
         title: "کوله پشتی کوهنوردی",
-        imgSrc: require("../assets/img/offer-amazing/کوله-پشتی-کوهنوردی.jpg"),
+        imgSrc: require("@/assets/images/offer-amazing/کوله-پشتی-کوهنوردی.jpg"),
         orgPrice: "1,300,00",
         price: "900,000",
         discountPercent: 20,
@@ -93,7 +93,7 @@ export default [
     {
         id: 11,
         title: "کیف اداری مردانه چرم",
-        imgSrc: require("../assets/img/offer-amazing/کیف-اداری-مردانه-چرم.jpg"),
+        imgSrc: require("@/assets/images/offer-amazing/کیف-اداری-مردانه-چرم.jpg"),
         orgPrice: "6,772,000",
         price: "2,731,000",
         discountPercent: 60,
@@ -102,7 +102,7 @@ export default [
     {
         id: 12,
         title: "موس گیمینگ",
-        imgSrc: require("../assets/img/offer-amazing/موس-گیمینگ.jpg"),
+        imgSrc: require("@/assets/images/offer-amazing/موس-گیمینگ.jpg"),
         orgPrice: "653,000",
         price: "589,000",
         discountPercent: 10,

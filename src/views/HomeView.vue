@@ -1,10 +1,13 @@
 <script setup>
 import TopSlider from '@/components/HomePage/Sliders/TopSlider.vue';
 import topSlider from '@/data/topSlider';
+import offerAmazing from  '@/data/offerAmazing'
 import { ref } from 'vue';
 import ServicesBrand from '@/components/HomePage/services-brand/ServicesBrand.vue';
+import SliderOffer from '@/components/HomePage/Sliders/SliderOffer.vue';
 
 const dataTopSlider = ref(topSlider)
+const dataOfferAmazing = ref(offerAmazing)
 
 </script>
 
@@ -15,7 +18,8 @@ const dataTopSlider = ref(topSlider)
             <TopSlider :topSlider="dataTopSlider" />
         </div>
         <div class="max-w-[1336px] lg:px-4  flex flex-col mx-auto">
-            <ServicesBrand/>
+            <ServicesBrand />
+            <SliderOffer :dataOffer="dataOfferAmazing" />
         </div>
     </div>
 </template>
