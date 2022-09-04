@@ -11,6 +11,7 @@ import dataCategorySection from '@/data/dataCategorySection';
 import Banner from '@/data/Banner';
 
 import { ref } from 'vue';
+import BannerProduct from '../components/global/Banner-Product/BannerProduct.vue';
 
 const dataTopSlider = ref(topSlider)
 const dataOfferAmazing = ref(offerAmazing)
@@ -28,6 +29,7 @@ const dataBanners = ref(Banner)
         <div class="max-w-[1336px] lg:px-4  flex flex-col mx-auto">
             <ServicesBrand />
             <SliderOffer :dataOffer="dataOfferAmazing" />
+            <BannerProduct/>
             <div class="grid grid-cols-4 my-5 gap-5">
                 <Banners v-for="data in dataBanners.slice(0, 4)" :key="data.id" :data="data" />
             </div>

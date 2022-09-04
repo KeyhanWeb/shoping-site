@@ -10,6 +10,11 @@ import Header from './components/global/Header/Header.vue';
 </template>
 
 <style>
+:root {
+  --color-fresh-700-rgb: 57, 174, 0;
+  --color-gradient-silver-rgb: 240, 240, 240;
+}
+
 body {
   font-family: 'yekan';
   direction: rtl;
