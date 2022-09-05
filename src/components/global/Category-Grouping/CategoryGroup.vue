@@ -12,7 +12,7 @@ const props = defineProps(["dataCat"])
                 دسته&zwnj;بندی&zwnj;های&zwnj;دیجی&zwnj;کالا
             </h3>
         </div>
-        <div class="items-category grid grid-cols-3  px-8  md:grid-cols-4 lg:grid-cols-5 ">
+        <div class="items-category grid grid-cols-3 px-8 md:grid-cols-4 lg:grid-cols-5 ">
             <div class="item mt-7 w-full flex justify-center items-center flex-col" v-for="data in dataCat"
                 :key="data.id">
                 <img :src="data.imgUrl" :alt="data.title" class="w-20 h-20 md:w-24 md:h-24 lg:w-40 lg:h-40 xl:44 xl:h-44 " />

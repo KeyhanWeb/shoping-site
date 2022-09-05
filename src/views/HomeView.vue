@@ -34,6 +34,9 @@ const dataBanners = ref(Banner)
                 <Banners v-for="data in dataBanners.slice(0, 4)" :key="data.id" :data="data" />
             </div>
             <CategoryGroup :dataCat="dataCatSection" />
+            <div class="grid grid-cols-1 my-2 gap-4 px-5 mt-12  md:grid-cols-2 lg:grid-cols-2 xl:px-2">
+                <Banners v-for="data in dataBanners.slice(5, 7)" :key="data.id" :data="data" />
+            </div>
         </div>
     </div>
 </template>
