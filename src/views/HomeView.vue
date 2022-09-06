@@ -11,11 +11,13 @@ import dataCategorySection from '@/data/dataCategorySection';
 import Banner from '@/data/Banner';
 import suggestedCategories from '@/data/suggestedCategories';
 import mostPropelBrands from '@/data/mostPropelBrands';
+import BoxCategory from '@/data/BoxCategory';
 
 import { ref } from 'vue';
 import BannerProduct from '../components/global/Banner-Product/BannerProduct.vue';
 import SuggestedCategories from '@/components/global/Suggested-categories/SuggestedCategories.vue';
 import MostBrands from '@/components/global/most-p-brands/MostBrands.vue';
+import Electronic from '@/components/global/Box-Category/Electronic.vue';
 
 const dataTopSlider = ref(topSlider)
 const dataOfferAmazing = ref(offerAmazing)
@@ -23,6 +25,7 @@ const dataCatSection = ref(dataCategorySection)
 const dataBanners = ref(Banner)
 const dataSgCat = ref(suggestedCategories)
 const datamost = ref(mostPropelBrands)
+const dataBoxCategory = ref(BoxCategory)
 
 </script>
 
@@ -45,9 +48,10 @@ const datamost = ref(mostPropelBrands)
             </div>
             <SuggestedCategories :dataSg="suggestedCategories"/>
             <MostBrands :dataMostBrands="datamost"/>
-            <div class="grid grid-cols-1 my-2 gap-4 mt-12 lg:grid-cols-2">
+            <div class="grid grid-cols-1 my-2 gap-4 mt-6 lg:grid-cols-2">
                 <Banners v-for="data in dataBanners.slice(7, 9)" :key="data.id" :data="data" />
             </div>
+            <Electronic :dataBoxCat="dataBoxCategory"/>
         </div>
     </div>
 </template>
