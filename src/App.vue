@@ -29,4 +29,10 @@ body {
   box-sizing: border-box;
   font-family: 'yekan';
 }
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 0.2s;
+  display: inline-block;
+}
 </style>

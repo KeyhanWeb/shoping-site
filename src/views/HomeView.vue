@@ -10,16 +10,19 @@ import offerAmazing from  '@/data/offerAmazing'
 import dataCategorySection from '@/data/dataCategorySection';
 import Banner from '@/data/Banner';
 import suggestedCategories from '@/data/suggestedCategories';
+import mostPropelBrands from '@/data/mostPropelBrands';
 
 import { ref } from 'vue';
 import BannerProduct from '../components/global/Banner-Product/BannerProduct.vue';
 import SuggestedCategories from '@/components/global/Suggested-categories/SuggestedCategories.vue';
+import MostBrands from '@/components/global/most-p-brands/MostBrands.vue';
 
 const dataTopSlider = ref(topSlider)
 const dataOfferAmazing = ref(offerAmazing)
 const dataCatSection = ref(dataCategorySection)
 const dataBanners = ref(Banner)
 const dataSgCat = ref(suggestedCategories)
+const datamost = ref(mostPropelBrands)
 
 </script>
 
@@ -41,6 +44,7 @@ const dataSgCat = ref(suggestedCategories)
                 <Banners v-for="data in dataBanners.slice(5, 7)" :key="data.id" :data="data" />
             </div>
             <SuggestedCategories :dataSg="suggestedCategories"/>
+            <MostBrands :dataMostBrands="datamost"/>
         </div>
     </div>
 </template>
