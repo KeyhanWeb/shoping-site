@@ -9,14 +9,17 @@ import topSlider from '@/data/topSlider';
 import offerAmazing from  '@/data/offerAmazing'
 import dataCategorySection from '@/data/dataCategorySection';
 import Banner from '@/data/Banner';
+import suggestedCategories from '@/data/suggestedCategories';
 
 import { ref } from 'vue';
 import BannerProduct from '../components/global/Banner-Product/BannerProduct.vue';
+import SuggestedCategories from '@/components/global/Suggested-categories/SuggestedCategories.vue';
 
 const dataTopSlider = ref(topSlider)
 const dataOfferAmazing = ref(offerAmazing)
 const dataCatSection = ref(dataCategorySection)
 const dataBanners = ref(Banner)
+const dataSgCat = ref(suggestedCategories)
 
 </script>
 
@@ -37,6 +40,7 @@ const dataBanners = ref(Banner)
             <div class="grid grid-cols-1 my-2 gap-4 px-5 mt-12  md:grid-cols-2 lg:grid-cols-2 xl:px-2">
                 <Banners v-for="data in dataBanners.slice(5, 7)" :key="data.id" :data="data" />
             </div>
+            <SuggestedCategories :dataSg="suggestedCategories"/>
         </div>
     </div>
 </template>
