@@ -12,7 +12,7 @@ const modules = [Navigation]
 </script>
     
 <template>
-    <div class="w-full py-6 bg-neutral000 rounded-2xl border border-neutral200 mt-4 lg:mt-6 mb-4">
+    <div class="w-full py-6 bg-neutral000 rounded-2xl border border-neutral200 mt-4 lg:mt-8 mb-4">
         <div class="flex justify-center items-center">
             <i class="uil uil-star text-lg  text-iconRating02 ml-2"></i>
             <p class="text-2xl font-semibold">محبوب&zwnj;ترین برندها</p>
