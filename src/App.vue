@@ -5,7 +5,7 @@ import Header from './components/global/Header/Header.vue';
 </script>
 
 <template>
-  <Header/>
+  <Header />
   <router-view />
 </template>
 
@@ -34,5 +34,12 @@ body {
   opacity: 1;
   transition: opacity 0.2s;
   display: inline-block;
+}
+
+.ellipsis-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 </style>
