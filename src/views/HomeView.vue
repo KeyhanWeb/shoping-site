@@ -18,6 +18,7 @@ import BannerProduct from '../components/global/Banner-Product/BannerProduct.vue
 import SuggestedCategories from '@/components/global/Suggested-categories/SuggestedCategories.vue';
 import MostBrands from '@/components/global/most-p-brands/MostBrands.vue';
 import Electronic from '@/components/global/Box-Category/Electronic.vue';
+import BanerClub from '@/components/HomePage/banner-digiclub/BanerClub.vue';
 
 const dataTopSlider = ref(topSlider)
 const dataOfferAmazing = ref(offerAmazing)
@@ -52,6 +53,7 @@ const dataBoxCategory = ref(BoxCategory)
                 <Banners v-for="data in dataBanners.slice(7, 9)" :key="data.id" :data="data" />
             </div>
             <Electronic :dataBoxCat="dataBoxCategory"/>
+            <BanerClub/>
         </div>
     </div>
 </template>

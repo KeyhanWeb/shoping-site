@@ -67,6 +67,11 @@ module.exports = {
         iconRating45: "#00a049",
         iconEror: "#d32f2f",
 
+        colorBlue300 : "#9ee3f0",
+        colorBlue500 : "#87d3e1",
+        colorBlue700 : "#00bfd6",
+        colorBluePrimery : "#19bfd3",
+
         appBackground: "#f2f2f2",
         brandPrimary: "#e6123d",
       },
