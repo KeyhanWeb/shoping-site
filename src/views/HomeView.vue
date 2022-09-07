@@ -19,6 +19,7 @@ import SuggestedCategories from '@/components/global/Suggested-categories/Sugges
 import MostBrands from '@/components/global/most-p-brands/MostBrands.vue';
 import Electronic from '@/components/global/Box-Category/Electronic.vue';
 import BanerClub from '@/components/HomePage/banner-digiclub/BanerClub.vue';
+import Other from '@/components/global/Box-Category/Other.vue';
 
 const dataTopSlider = ref(topSlider)
 const dataOfferAmazing = ref(offerAmazing)
@@ -54,6 +55,7 @@ const dataBoxCategory = ref(BoxCategory)
             </div>
             <Electronic :dataBoxCat="dataBoxCategory"/>
             <BanerClub/>
+            <Other :dataBoxCat="dataBoxCategory"/>
         </div>
     </div>
 </template>
