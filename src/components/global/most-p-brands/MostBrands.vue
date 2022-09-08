@@ -18,7 +18,12 @@ const modules = [Navigation]
             <p class="text-2xl font-semibold">محبوب&zwnj;ترین برندها</p>
         </div>
         <div class="w-full mt-5">
-            <swiper :slidesPerView="7" :spaceBetween="5" :grabCursor="true" :navigation="true" :modules="modules">
+            <swiper :slidesPerView="7" :spaceBetween="5" :grabCursor="true" :navigation="true" :modules="modules"
+            class="slider-brands"
+            :style="{
+            '--swiper-navigation-color': '#424750',
+            '--swiper-navigation-size': '12px'
+        }">
                 <swiper-slide class="h-auto w-auto ml-[18px] border-l border-neutral200 rounded-2xl select-none" v-for="data in dataMostBrands"
                     :key="data.id">
                     <div class="flex items-center justify-center h-full shrink-0 px-4 py-1">
@@ -32,3 +37,15 @@ const modules = [Navigation]
         </div>
     </div>
 </template>
+
+<style>
+.slider-brands .swiper-button-prev,
+.slider-brands .swiper-button-next {
+    top: 40%;
+    z-index: 10;
+}
+.slider-brands .swiper-button-next.swiper-button-disabled,
+.slider-brands .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+}
+</style>

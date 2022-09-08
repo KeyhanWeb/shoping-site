@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Navigation, } from "swiper";
 import "swiper/css/navigation";
 import 'swiper/css';
-import { ref, defineProps } from 'vue';
+import { defineProps } from 'vue';
 
 const props = defineProps(["dataOffer"])
 
@@ -11,11 +11,15 @@ const modules = [Navigation]
 
 </script>
     
-    <template>
-    <swiper :slidesPerView="8" :spaceBetween="0" :grabCursor="true" :navigation="true" :modules="modules"
-        class="w-full  box-border h-auto px-2 py-4 my-4 select-none rounded-xl border-x-4 border-[#ef394e] bg-[#ef394e]">
-        <swiper-slide class="flex flex-col items-center cursor-pointer">
-            <a href="" class="flex flex-col items-center mx-2">
+<template>
+    <swiper :slidesPerView="7" :spaceBetween="10" :grabCursor="true" :navigation="true" :modules="modules"
+        class="slider-offer w-full box-border h-auto px-3 py-4 my-4 select-none rounded-xl border-x-4 border-[#ef394e] bg-[#ef394e]"
+        :style="{
+            '--swiper-navigation-color': '#424750',
+            '--swiper-navigation-size': '12px'
+        }">
+        <swiper-slide class="w-auto h-auto flex flex-col items-center cursor-pointer">
+            <a href="" class="flex flex-col items-center px-2">
                 <div class="title w-[92px] h-[77px]" style="width: 92px; height: 77px;">
                     <img class="w-full h-full inline-block lazyloaded object-contain" width="92px" height="77px"
                         src="@/assets/images/slider-offer-amazing/amazing-typo.svg" alt="">
@@ -33,7 +37,7 @@ const modules = [Navigation]
             </a>
         </swiper-slide>
 
-        <swiper-slide class="w-auto h-auto ml-[25px]" :class="{ 'rounded-t-md rounded-r-md': data.id == 1 }"
+        <swiper-slide class="w-auto h-auto" :class="{'rounded-t-md rounded-r-md': data.id == 1 }"
             v-for="data in dataOffer">
             <a class="block relative bg-neutral000 py-3 px-5 lg:px-3 lg:h-full"
                 :class="{ 'rounded-r-md': data.id == 1 }" style="width: 182px; min-width: 182px; max-width: 182px;"
@@ -78,7 +82,7 @@ const modules = [Navigation]
             </a>
         </swiper-slide>
         <swiper-slide class="h-full cursor-pointer">
-            <div class="bg-neutral000 flex flex-col items-center justify-center rounded-l-md px-8 ml-5 lg:ml-0 h-[240px]"
+            <div class="bg-neutral000 flex flex-col items-center justify-center rounded-l-md px-8 lg:ml-0 h-[240px] ml-5"
                 style="width: 192px; min-width: 192px; max-width: 192px;">
                 <a href="" class="flex flex-col justify-center items-center">
                     <div class="rounded-[50%] p-2 px-3 text-lg text-secondary500 border border-secondary500">
@@ -91,5 +95,24 @@ const modules = [Navigation]
     </swiper>
 </template>
     
-    <style>
-    </style>
+<style>
+.slider-offer .swiper-button-prev,
+.slider-offer .swiper-button-next {
+    top: 47%;
+    z-index: 10;
+}
+
+.slider-offer .swiper-button-prev {
+    right: 35px;
+}
+
+.slider-offer .swiper-button-next {
+    right: auto;
+    left: 10px;
+}
+
+.slider-offer .swiper-button-next.swiper-button-disabled,
+.slider-offer .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+}
+</style>

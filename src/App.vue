@@ -1,6 +1,7 @@
 <script setup>
 import Header from './components/global/Header/Header.vue';
-
+import "swiper/css/navigation";
+import 'swiper/css';
 
 </script>
 
@@ -41,5 +42,19 @@ body {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 18px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  border: 1px solid #c0c2c5;
 }
 </style>

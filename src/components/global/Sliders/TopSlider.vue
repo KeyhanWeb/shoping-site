@@ -6,7 +6,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import 'swiper/css';
 import { defineProps } from 'vue';
-import { ref } from 'vue';
 
 const props = defineProps(["topSlider"])
 
@@ -18,13 +17,12 @@ const modules = [Navigation, Pagination, Autoplay]
     <swiper :slides-per-view="1" :rewind="true" :navigation="true" :pagination="{
         clickable: true,
     }" :autoplay="{
-    delay: 2500,
-    disableOnInteraction: false,
-}" :modules="modules"  class="slider h-full text-center cursor-pointer"
-        :style="{
-            '--swiper-navigation-color': '#424750',
-            '--swiper-navigation-size': '12px'
-        }">
+        delay: 2500,
+        disableOnInteraction: false,
+    }" :modules="modules" class="slider-top h-full text-center cursor-pointer" :style="{
+    '--swiper-navigation-color': '#424750',
+    '--swiper-navigation-size': '12px'
+}">
 
         <swiper-slide class="h-full" v-for="data in topSlider.slice(0, 8)" :key="data.id">
             <a :href="data.src" class="h-full w-full" target="_blank">
@@ -36,18 +34,31 @@ const modules = [Navigation, Pagination, Autoplay]
 </template>
 
 <style>
-.swiper-rtl .swiper-button-prev {
+.slider-top .swiper-button-next,
+.slider-top .swiper-button-prev {
+    top: auto;
+    opacity: 0 !important;
+    bottom: 40px;
+}
+
+.slider-top:hover .swiper-button-next,
+.slider-top:hover .swiper-button-prev {
+    opacity: 1 !important;
+}
+
+
+.slider-top .swiper-button-prev {
     right: 35px;
 }
 
-.swiper-rtl .swiper-button-next {
-    right: 80px;
+.slider-top .swiper-button-next {
+    right: 80px ;
 }
 
-.swiper-horizontal>.swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
+.slider-top .swiper-horizontal>.swiper-pagination-bullets,
+.slider-top .swiper-pagination-bullets.swiper-pagination-horizontal,
+.slider-top .swiper-pagination-custom,
+.slider-top .swiper-pagination-fraction {
     bottom: 10px;
     right: 0;
     left: auto;
@@ -55,12 +66,12 @@ const modules = [Navigation, Pagination, Autoplay]
     margin-right: 25px;
 }
 
-.swiper-pagination-bullet {
+.slider-top .swiper-pagination-bullet {
     width: 6px;
     height: 6px;
 }
 
-.swiper-pagination-bullet-active {
+.slider-top .swiper-pagination-bullet-active {
     background-color: #e0e0e0;
     width: 18px;
     border-radius: 16px;
