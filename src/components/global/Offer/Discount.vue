@@ -5,15 +5,15 @@ const props = defineProps(["dataDiscount"])
 </script>
 
 <template>
-  <div class="border-contanier my-8 rounded-2xl">
+  <div class="w-full my-8 border border-neural200 rounded-2xl overflow-hidden">
     <div class="title-discount w-full flex justify-center items-center mt-2">
       <i class="uil uil-label-alt text-3xl text-red-600 mt-1 ml-1"></i>
       <h2 class="font-semibold text-lg my-3">منتخب محصولات تخفیف و حراج</h2>
     </div>
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 mb-4">
-      <div class="details flex items-center flex-col mt-7" v-for="data in dataDiscount" :key="data">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 mt-4">
+      <div class="details flex items-center border-r border-l border-b border-neutral100 flex-col py-5" v-for="data in dataDiscount" :key="data">
         <img :src="data.urlImg" alt="" class="w-32 rounded-lg" />
-        <div class="price-off flex w-full justify-around ">
+        <div class="price-off flex w-full justify-between px-2">
           <div class="off flex items-center mt-2
           ">
        <h5 class="text-xs text-white bg-primary700 py-1 px-2 rounded-full">{{data.OffTitle}}</h5>
@@ -30,10 +30,3 @@ const props = defineProps(["dataDiscount"])
     </div>
   </div>
 </template>
-
-
-<style scoped>
-.border-contanier {
-  border: 1px solid #e1e2e7;
-}
-</style>
