@@ -14,6 +14,7 @@ import mostPropelBrands from '@/data/mostPropelBrands';
 import BoxCategory from '@/data/BoxCategory';
 import BestSellingHome from '@/data/BestSellingHome';
 import dataDiscount from '@/data/dataDiscount';
+import blogSuggest from '@/data/blogSuggest';
 
 import { ref } from 'vue';
 import BannerProduct from '../components/global/Banner-Product/BannerProduct.vue';
@@ -24,6 +25,7 @@ import BanerClub from '@/components/HomePage/banner-digiclub/BanerClub.vue';
 import Other from '@/components/global/Box-Category/Other.vue';
 import BestSellSlide from '@/components/global/best-selling-slide/BestSellSlide.vue';
 import Discount from '@/components/global/Offer/Discount.vue';
+import BlogSuggest from '@/components/global/blog-Suggested/BlogSuggest.vue';
 
 
 const dataTopSlider = ref(topSlider)
@@ -35,6 +37,7 @@ const datamost = ref(mostPropelBrands)
 const dataBoxCategory = ref(BoxCategory)
 const dataBestSelling = ref(BestSellingHome)
 const dataDiscountOffer = ref(dataDiscount)
+const dataBlogS = ref(blogSuggest)
 
 </script>
 
@@ -65,6 +68,7 @@ const dataDiscountOffer = ref(dataDiscount)
             <Other :dataBoxCat="dataBoxCategory"/>
             <BestSellSlide :dataSelling="dataBestSelling"/>
             <Discount :dataDiscount="dataDiscountOffer"/>
+            <BlogSuggest :dataBlog="dataBlogS"/>
         </div>
     </div>
 </template>
