@@ -18,7 +18,7 @@ const modules = [Navigation]
                 <i class="uil uil-fire text-xl text-iconWarning ml-3"></i>
                 <p class="text-2xl text-neutral900 font-semibold">پرفروش&zwnj;ترین کالاها</p>
             </div>
-            <a class="absolute top-0 left-0 inline-flex text-center text-xs text-buttonSecondary font-semibold cursor-pointer pl-4 shrink-0"
+            <a class="absolute top-5 left-0 inline-flex text-center text-xs text-buttonSecondary font-semibold cursor-pointer pl-5 shrink-0"
                 href="https://www.digikala.com/best-selling/">
                 <span>مشاهده همه</span>
             </a>
@@ -30,18 +30,18 @@ const modules = [Navigation]
                     '--swiper-navigation-color': '#424750',
                     '--swiper-navigation-size': '12px'
                 }">
-                <swiper-slide class="h-auto w-auto ml-[20px]" v-for="dataSlide in dataSelling" :key="dataSlide.id">
-                    <div>
+                <swiper-slide class="h-auto w-auto" v-for="dataSlide in dataSelling" :key="dataSlide.id">
+                    <div class="w-full flex flex-col items-center">
                         <a class="flex min-w-[280px] mt-5" v-for="data in dataSlide.slide" :key="data.number"
                             :href="data.href" target="_blank">
-                            <div class="flex min-w-[280px]">
-                                <div class="rounded-md  ml-3" style="width:86px; height:86px;">
-                                    <img class="w-full lazyloaded" width="86" height="86" :src="data.imgSrc"
+                            <div class="flex max-w-[280px]">
+                                <div class="w-[86px] h-[86px] flex items-center justify-center ml-3">
+                                    <img class="w-[86px] h-[86px] max-w-[86px] lazyloaded" width="86" height="86" :src="data.imgSrc"
                                         :alt="data.title">
                                 </div>
                                 <span
                                     class="text-2xl text-buttonSecondary font-semibold flex items-center ml-3">{{data.number}}</span>
-                                <div class="grow flex flex-col justify-center relative border-b border-neutral200">
+                                <div class="grow flex flex-col justify-center relative border-b border-neutral200" :class="data.borderClass">
                                     <p class="text-xs text-neutral700 font-semibold ellipsis-2 overflow-hidden">
                                         {{data.title}}</p>
                                 </div>

@@ -18,7 +18,8 @@ export default [
                 title: "خودکار فوق روان نانو آنتی باکتریال پنتر مدل Dr.Panter کد DP-105_0.7",
                 number: 3,
                 imgSrc: require("@/assets/images/best-selling-home/pen.jpg"),
-                href: "https://www.digikala.com/product/dkp-7527661/%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1-%D9%81%D9%88%D9%82-%D8%B1%D9%88%D8%A7%D9%86-%D9%86%D8%A7%D9%86%D9%88-%D8%A2%D9%86%D8%AA%DB%8C-%D8%A8%D8%A7%DA%A9%D8%AA%D8%B1%DB%8C%D8%A7%D9%84-%D9%BE%D9%86%D8%AA%D8%B1-%D9%85%D8%AF%D9%84-drpanter-%DA%A9%D8%AF-dp-105/"
+                href: "https://www.digikala.com/product/dkp-7527661/%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1-%D9%81%D9%88%D9%82-%D8%B1%D9%88%D8%A7%D9%86-%D9%86%D8%A7%D9%86%D9%88-%D8%A2%D9%86%D8%AA%DB%8C-%D8%A8%D8%A7%DA%A9%D8%AA%D8%B1%DB%8C%D8%A7%D9%84-%D9%BE%D9%86%D8%AA%D8%B1-%D9%85%D8%AF%D9%84-drpanter-%DA%A9%D8%AF-dp-105/",
+                borderClass: "border-none"
             },
         ]
     },
@@ -41,7 +42,8 @@ export default [
                 title: "کنسرو ماهی تون مکنزی در روغن گیاهی - 180 گرم",
                 number: 6,
                 imgSrc: require("@/assets/images/best-selling-home/ton-mahi.jpg"),
-                href: "https://www.digikala.com/product/dkp-2237234/%DA%A9%D9%86%D8%B3%D8%B1%D9%88-%D9%85%D8%A7%D9%87%DB%8C-%D8%AA%D9%88%D9%86-%D9%85%DA%A9%D9%86%D8%B2%DB%8C-%D8%AF%D8%B1-%D8%B1%D9%88%D8%BA%D9%86-%DA%AF%DB%8C%D8%A7%D9%87%DB%8C-180-%DA%AF%D8%B1%D9%85/"
+                href: "https://www.digikala.com/product/dkp-2237234/%DA%A9%D9%86%D8%B3%D8%B1%D9%88-%D9%85%D8%A7%D9%87%DB%8C-%D8%AA%D9%88%D9%86-%D9%85%DA%A9%D9%86%D8%B2%DB%8C-%D8%AF%D8%B1-%D8%B1%D9%88%D8%BA%D9%86-%DA%AF%DB%8C%D8%A7%D9%87%DB%8C-180-%DA%AF%D8%B1%D9%85/",
+                borderClass: "border-none"
             },
         ]
     },
@@ -52,7 +54,7 @@ export default [
                 title: "قرص جوشان ویتامین سی 1000 میلی گرمی یوروویتال بسته 20 عددی",
                 number: 7,
                 imgSrc: require("@/assets/images/best-selling-home/v-c.jpg"),
-                href: "https://www.digikala.com/product/dkp-3554373/%D9%82%D8%B1%D8%B5-%D8%AC%D9%88%D8%B4%D8%A7%D9%86-%D9%88%DB%8C%D8%AA%D8%A7%D9%85%DB%8C%D9%86-%D8%B3%DB%8C-1000-%D9%85%DB%8C%D9%84%DB%8C-%DA%AF%D8%B1%D9%85%DB%8C-%DB%8C%D9%88%D8%B1%D9%88%D9%88%DB%8C%D8%AA%D8%A7%D9%84-%D8%A8%D8%B3%D8%AA%D9%87-20-%D8%B9%D8%AF%D8%AF%DB%8C/"
+                href: "https://www.digikala.com/product/dkp-3554373/%D9%82%D8%B1%D8%B5-%D8%AC%D9%88%D8%B4%D8%A7%D9%86-%D9%88%DB%8C%D8%AA%D8%A7%D9%85%DB%8C%D9%86-%D8%B3%DB%8C-1000-%D9%85%DB%8C%D9%84%DB%8C-%DA%AF%D8%B1%D9%85%DB%8C-%DB%8C%D9%88%D8%B1%D9%88%D9%88%DB%8C%D8%AA%D8%A7%D9%84-%D8%A8%D8%B3%D8%AA%D9%87-20-%D8%B9%D8%AF%D8%AF%DB%8C/",
             },
             {
                 title: "زعفران درجه یک مصطفوی - 4.608 گرم",
@@ -64,7 +66,8 @@ export default [
                 title: "اسپاگتی قطر 1.2 زر ماکارون مقدار 700 گرم",
                 number: 9,
                 imgSrc: require("@/assets/images/best-selling-home/spaghetti-1200.jpg"),
-                href: "https://www.digikala.com/product/dkp-633380/%D8%A7%D8%B3%D9%BE%D8%A7%DA%AF%D8%AA%DB%8C-%D9%82%D8%B7%D8%B1-12-%D8%B2%D8%B1-%D9%85%D8%A7%DA%A9%D8%A7%D8%B1%D9%88%D9%86-%D9%85%D9%82%D8%AF%D8%A7%D8%B1-700-%DA%AF%D8%B1%D9%85/"
+                href: "https://www.digikala.com/product/dkp-633380/%D8%A7%D8%B3%D9%BE%D8%A7%DA%AF%D8%AA%DB%8C-%D9%82%D8%B7%D8%B1-12-%D8%B2%D8%B1-%D9%85%D8%A7%DA%A9%D8%A7%D8%B1%D9%88%D9%86-%D9%85%D9%82%D8%AF%D8%A7%D8%B1-700-%DA%AF%D8%B1%D9%85/",
+                borderClass: "border-none"
             },
         ]
     },
@@ -87,7 +90,8 @@ export default [
                 title: "هدفون بی سیم مدل BTH-F9-5",
                 number: 12,
                 imgSrc: require("@/assets/images/best-selling-home/Heaphne-BTH.jpg"),
-                href: "https://www.digikala.com/product/dkp-3841072/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%DB%8C-%D8%B3%DB%8C%D9%85-%D9%85%D8%AF%D9%84-bth-f9-5/"
+                href: "https://www.digikala.com/product/dkp-3841072/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%DB%8C-%D8%B3%DB%8C%D9%85-%D9%85%D8%AF%D9%84-bth-f9-5/",
+                borderClass: "border-none"
             },
         ]
     },
@@ -110,7 +114,8 @@ export default [
                 title: "فلوئید ضد آفتاب مای مدل Hyaluronic Acid حجم 50 میلی لیتر ",
                 number: 15,
                 imgSrc: require("@/assets/images/best-selling-home/anti-sun.jpg"),
-                href: "https://www.digikala.com/product/dkp-5715766/%D9%81%D9%84%D9%88%D8%A6%DB%8C%D8%AF-%D8%B6%D8%AF-%D8%A2%D9%81%D8%AA%D8%A7%D8%A8-%D9%85%D8%A7%DB%8C-%D9%85%D8%AF%D9%84-hyaluronic-acid-%D8%AD%D8%AC%D9%85-50-%D9%85%DB%8C%D9%84%DB%8C-%D9%84%DB%8C%D8%AA%D8%B1/"
+                href: "https://www.digikala.com/product/dkp-5715766/%D9%81%D9%84%D9%88%D8%A6%DB%8C%D8%AF-%D8%B6%D8%AF-%D8%A2%D9%81%D8%AA%D8%A7%D8%A8-%D9%85%D8%A7%DB%8C-%D9%85%D8%AF%D9%84-hyaluronic-acid-%D8%AD%D8%AC%D9%85-50-%D9%85%DB%8C%D9%84%DB%8C-%D9%84%DB%8C%D8%AA%D8%B1/",
+                borderClass : "border-none"
             },
         ]
     },
@@ -133,7 +138,8 @@ export default [
                 title: "هدفون بلوتوثی کیو سی وای مدل T13 TWS",
                 number: 18,
                 imgSrc: require("@/assets/images/best-selling-home/headphne-t13.jpg"),
-                href: "https://www.digikala.com/product/dkp-5856710/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%DA%A9%DB%8C%D9%88-%D8%B3%DB%8C-%D9%88%D8%A7%DB%8C-%D9%85%D8%AF%D9%84-t13-tws/"
+                href: "https://www.digikala.com/product/dkp-5856710/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%DA%A9%DB%8C%D9%88-%D8%B3%DB%8C-%D9%88%D8%A7%DB%8C-%D9%85%D8%AF%D9%84-t13-tws/",
+                borderClass : "border-none"
             },
         ]
     },
