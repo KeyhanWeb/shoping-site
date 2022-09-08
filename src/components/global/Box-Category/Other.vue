@@ -5,10 +5,10 @@ const props = defineProps(["dataBoxCat"])
 </script>
 
 <template>
-  <div class="w-full border-contanier my-6 rounded-2xl">
-    <div class="itemsCategory flex flex-wrap justify-center xl:items-center">
-      <div class="item-Electronic w-full mt-5 px-5 lg:w-1/2 xl:w-1/4 xl:mt-0" v-for="data in dataBoxCat.slice(4, 8)"
-        :key="data.id" :class="data.border">
+  <div class="w-full border border-neutral200 my-6 rounded-2xl">
+    <div class=" flex flex-wrap justify-center xl:items-center">
+      <div class="item-Electronic w-full border-r border-neutral200 mt-5 px-5 lg:w-1/2 xl:w-1/4 xl:mt-0"
+        v-for="data in dataBoxCat.slice(4, 8)" :key="data.id" :class="data.borderClass">
         <h2 class="text-neutral800 text-sm font-bold lg:text-lg xl:mr-4 xl:text-sm xl:mt-5">{{ data.title }}</h2>
         <p class="text-[10px] mt-3 text-neutral500 text-sm xl:mr-4  xl:text-[11px] xl:mt-2">بر اساس بازدید های شما</p>
         <div class="flex flex-wrap justify-around items-center  ">
@@ -24,18 +24,3 @@ const props = defineProps(["dataBoxCat"])
     </div>
   </div>
 </template>
-
-
-<style scoped>
-.border-contanier {
-  border: 1px solid #e1e2e7;
-}
-
-.item-Electronic {
-  border-right: 1px solid #e1e2e7;
-}
-
-.border {
-  border-right: none;
-}
-</style>

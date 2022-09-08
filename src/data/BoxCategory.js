@@ -4,6 +4,7 @@ export default [
         title: "هدفون , هندزفری هدست ",
         titleLink:"مشاهده",
         link:"https://www.digikala.com/search/category-headphone/",
+        borderClass : "border-none",
         itemCategory: [
             {
                 ems:"wrgqrg",
@@ -103,6 +104,7 @@ export default [
         title:"بازدید های  اخیر ",
         link:"https://www.digikala.com/profile/user-history/",
         titleLink:"مشاهده",
+        borderClass : "border-none",
         itemCategory: [
             {
                 urlImg: require("@/assets/images/Box-categories/17.jpg"),
