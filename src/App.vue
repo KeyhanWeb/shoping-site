@@ -1,7 +1,6 @@
 <script setup>
 import Header from './components/global/Header/Header.vue';
-import Footer from './components/global/Footer/Footer.vue';
-
+import Footer from './components/global/Footer/Footer.vue'; 
 import "swiper/css/navigation";
 import 'swiper/css';
 

@@ -109,11 +109,7 @@ export default [
                 subId: 24,
                 subMenu: "کارت هدیه خرید از دیجی‌کالا"
             },
-<<<<<<< HEAD
-        ]
-=======
         ],
->>>>>>> HomePage
     },
     {
         id: 1,
