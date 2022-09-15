@@ -4,12 +4,15 @@ import { ref } from 'vue';
 import TopSlider from '@/components/global/Sliders/TopSlider.vue';
 import NavMenu from '@/components/super-market/Nav-menu/NavMenu.vue';
 import SliderOffer from '@/components/global/Sliders/SliderOffer.vue';
+import CategoryGroup from '@/components/global/Category-Grouping/CategoryGroup.vue';
 
 import topSlider from '@/data/super-market/slider-top';
 import offerAmazing from '@/data/offerAmazing';
+import SuperMarketCategory from '@/data/super-market/SuperMarketCategory'
 
 const dataTopSlider = ref(topSlider)
 const dataOfferAmazing = ref(offerAmazing)
+const dataCategories = ref(SuperMarketCategory)
 
 
 </script>
@@ -23,6 +26,7 @@ const dataOfferAmazing = ref(offerAmazing)
                 <TopSlider :topSlider="dataTopSlider" class="rounded-2xl" />
             </div>
             <SliderOffer :dataOffer="dataOfferAmazing"/>
+            <CategoryGroup :dataCat="dataCategories"/>
         </div>
     </div>
 </template>
