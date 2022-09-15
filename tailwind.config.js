@@ -72,6 +72,10 @@ module.exports = {
         colorBlue700 : "#00bfd6",
         colorBluePrimery : "#19bfd3",
 
+        fresh300 : "#9dc44d",
+        fresh500 : "#6bb927",
+        fresh700 : "#39ae00",
+
         appBackground: "#f2f2f2",
         brandPrimary: "#e6123d",
       },
