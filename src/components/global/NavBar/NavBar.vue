@@ -43,36 +43,36 @@ function leave1() {
             </div>
             <ul class="flex items-center px-3 border-l border-neutral200">
                 <li class="ml-3">
-                    <a href="#" class="text-sm text-neutral700">
+                    <router-link :to="{ name : 'market'}" class="text-sm text-neutral700">
                         <i class="uil uil-shopping-basket text-iconLowEmphasis text-lg"></i>
                         سوپر&zwnj;مارکت
-                    </a>
+                    </router-link>
                 </li>
                 <li class="ml-3">
-                    <a href="#" class="text-sm text-neutral700">
+                    <router-link to="./" class="text-sm text-neutral700">
                         <i class="uil uil-fire text-iconLowEmphasis text-lg"></i>
                         پرفروش&zwnj;ترین&zwnj;ها
-                    </a>
+                    </router-link>
                 </li>
                 <li class="ml-3">
-                    <a href="#" class="text-sm text-neutral700">
+                    <router-link to="./" class="text-sm text-neutral700">
                         <i class="uil uil-percentage  text-iconLowEmphasis text-lg"></i>
                         تخفیف&zwnj;ها و پیشنهاد&zwnj;ها
-                    </a>
+                    </router-link>
                 </li>
                 <li class="ml-2">
-                    <a href="#" class="text-sm text-neutral700">
+                    <router-link to="./" class="text-sm text-neutral700">
                         <i class="uil uil-pricetag-alt  text-iconLowEmphasis text-lg"></i>
                         شگفت&zwnj;انگیزها
-                    </a>
+                    </router-link>
                 </li>
             </ul>
             <ul class="flex items-center px-3">
                 <li class="ml-3">
-                    <a href="#" class="text-sm text-neutral700">سوالی دارید؟</a>
+                    <router-link to="./" class="text-sm text-neutral700">سوالی دارید؟</router-link>
                 </li>
                 <li class="ml-3">
-                    <a href="#" class="text-sm  text-neutral700"> فروشنده شوید! </a>
+                    <router-link to="./" class="text-sm  text-neutral700"> فروشنده شوید! </router-link>
                 </li>
             </ul>
             <div class="absolute bottom-0 right-0 w-[120px] h-[2px] bg-primary700"> </div>

@@ -7,12 +7,12 @@ const routes = [
     name: "home",
     component: HomeView,
   },
-  // {
-  //   path: "/about",
-  //   name: "about",
-  //   component: () =>
-  //     import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
-  // },
+  {
+    path: "/market",
+    name: "market",
+    component: () =>
+      import(/* webpackChunkName: "market" */ "../views/SuperMarket.vue"),
+  },
 ];
 
 const router = createRouter({
