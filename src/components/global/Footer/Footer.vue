@@ -115,7 +115,7 @@ const Description = reactive([
 </script>
 
 <template>
-  <footer class="mt-10">
+  <footer class="mt-12 border-t border-neutral100 pt-8">
     <!-- The upper part of the footer contains the support logo and the up button -->
     <div class="top-footer w-[93%] flex justify-between m-auto xl:w-[97%]">
       <div class="logo-support ">
