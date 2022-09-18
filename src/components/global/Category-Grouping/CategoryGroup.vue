@@ -6,7 +6,7 @@ const props = defineProps(["dataCat"])
 </script>
       
 <template>
-    <div class="Category-container w-full ">
+    <div class="Category-container w-full mb-8">
         <div class="title-category my-7">
             <h3 class="text-[19px] font-semibold text-center ">
                 دسته&zwnj;بندی&zwnj;های&zwnj;دیجی&zwnj;کالا
