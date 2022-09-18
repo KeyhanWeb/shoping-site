@@ -33,10 +33,13 @@ const dataSg = ref(suggestedCategoriesData);
             </div>
             <SliderOffer :dataOffer="dataOfferAmazing" />
             <CategoryGroup :dataCat="dataCategories" />
-            <div class="grid grid-cols-1 gap-4 px-5 mt-8 my-6 md:grid-cols-2 xl:px-2">
+            <div class="grid grid-cols-1 gap-4 mt-8 my-6 md:grid-cols-2">
                 <Banners v-for="data in dataBanners.slice(9, 13)" :key="data.id" :data="data"/>
             </div>
             <SuggestedCategories :dataSg="dataSg"/>
+            <div class="grid grid-cols-1 gap-4 mt-8 my-6 md:grid-cols-2 lg:grid-cols-4">
+                <Banners v-for="data in dataBanners.slice(13, 17)" :key="data.id" :data="data"/>
+            </div>
         </div>
     </div>
 </template>

@@ -50,5 +50,21 @@ export default [
    {
       id: 13,
       url: require('@/assets/images/super-market/BannerSupermarket/4.jpg')
+   },
+   {
+      id: 14,
+      url: require('@/assets/images/super-market/BannerSupermarket/5.jpg')
+   },
+   {
+      id: 15,
+      url: require('@/assets/images/super-market/BannerSupermarket/6.jpg')
+   },
+   {
+      id: 16,
+      url: require('@/assets/images/super-market/BannerSupermarket/7.jpg')
+   },
+   {
+      id: 17,
+      url: require('@/assets/images/super-market/BannerSupermarket/8.jpg')
    }
 ]
