@@ -7,18 +7,21 @@ import SliderOffer from '@/components/global/Sliders/SliderOffer.vue';
 import CategoryGroup from '@/components/global/Category-Grouping/CategoryGroup.vue';
 import Banners from '@/components/global/Banner/Banners.vue';
 import SuggestedCategories from '@/components/global/Suggested-categories/SuggestedCategories.vue';
+import BestSellSlide from '@/components/global/best-selling-slide/BestSellSlide.vue';
 
 import topSlider from '@/data/super-market/slider-top';
 import offerAmazing from '@/data/offerAmazing';
 import SuperMarketCategory from '@/data/super-market/SuperMarketCategory'
 import Banner from '@/data/Banner';
 import suggestedCategoriesData from '@/data/suggestedCategories';
+import BestSellingHome from '@/data/BestSellingHome';
 
 const dataTopSlider = ref(topSlider)
 const dataOfferAmazing = ref(offerAmazing)
 const dataCategories = ref(SuperMarketCategory)
 const dataBanners = ref(Banner)
 const dataSg = ref(suggestedCategoriesData);
+const dataBestSelling = ref(BestSellingHome)
 
 
 </script>
@@ -40,6 +43,7 @@ const dataSg = ref(suggestedCategoriesData);
             <div class="grid grid-cols-1 gap-4 mt-8 my-6 md:grid-cols-2 lg:grid-cols-4">
                 <Banners v-for="data in dataBanners.slice(13, 17)" :key="data.id" :data="data"/>
             </div>
+            <BestSellSlide :dataSelling="dataBestSelling"/>
         </div>
     </div>
 </template>
