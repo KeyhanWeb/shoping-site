@@ -42,7 +42,7 @@ const dataBlogS = ref(blogSuggestData)
             <div class="w-full h-[400px] mb-2 my-2 text-center cursor-pointer">
                 <TopSlider :topSlider="dataTopSlider" class="rounded-2xl" />
             </div>
-            <SliderOffer :dataOffer="dataOfferAmazing" />
+            <SliderOffer :dataOffer="dataOfferAmazing[1]" />
             <CategoryGroup :dataCat="dataCategories" />
             <div class="grid grid-cols-1 gap-4 mt-8 my-6 md:grid-cols-2">
                 <Banners v-for="data in dataBanners.slice(9, 13)" :key="data.id" :data="data" />

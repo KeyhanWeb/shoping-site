@@ -9,11 +9,14 @@ const props = defineProps(["dataOffer"])
 
 const modules = [Navigation]
 
+
+
 </script>
     
 <template>
     <swiper :slidesPerView="7" :spaceBetween="10" :grabCursor="true" :navigation="true" :modules="modules"
-        class="slider-offer w-full box-border h-auto px-3 py-4 my-4 select-none rounded-xl border-x-4 border-[#ef394e] bg-[#ef394e]"
+        class="slider-offer w-full box-border h-auto px-3 py-4 my-4 select-none rounded-xl border-x-4 border-primary500 bg-gradient-to-t"
+        :class="dataOffer.bgClass , dataOffer.borderClass"
         :style="{
             '--swiper-navigation-color': '#424750',
             '--swiper-navigation-size': '12px'
@@ -38,7 +41,7 @@ const modules = [Navigation]
         </swiper-slide>
 
         <swiper-slide class="w-auto h-auto" :class="{'rounded-t-md rounded-r-md': data.id == 1 }"
-            v-for="data in dataOffer">
+            v-for="data in dataOffer.content">
             <a class="block relative bg-neutral000 py-3 px-5 lg:px-3 lg:h-full"
                 :class="{ 'rounded-r-md': data.id == 1 }" style="width: 182px; min-width: 182px; max-width: 182px;"
                 :href="data.href" target="_blank">
