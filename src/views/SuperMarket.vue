@@ -11,6 +11,7 @@ import BestSellSlide from '@/components/global/best-selling-slide/BestSellSlide.
 import Discount from '@/components/global/Offer/Discount.vue';
 import MostBrands from '@/components/global/most-p-brands/MostBrands.vue';
 import BlogSuggest from '@/components/global/blog-Suggested/BlogSuggest.vue';
+import AboutMarket from '@/components/super-market/about-market/AboutMarket.vue';
 
 import topSlider from '@/data/super-market/slider-top';
 import offerAmazing from '@/data/offerAmazing';
@@ -21,6 +22,7 @@ import BestSellingHome from '@/data/BestSellingHome';
 import dataDiscount from '@/data/dataDiscount';
 import mostPropelBrands from '@/data/mostPropelBrands';
 import blogSuggestData from '@/data/blogSuggest';
+import AboutSuperMarket from '@/data/super-market/AboutSuperMarket';
 
 const dataTopSlider = ref(topSlider)
 const dataOfferAmazing = ref(offerAmazing)
@@ -31,6 +33,7 @@ const dataBestSelling = ref(BestSellingHome)
 const dataDiscountOffer = ref(dataDiscount)
 const datamost = ref(mostPropelBrands)
 const dataBlogS = ref(blogSuggestData)
+const dataAboutMarket = ref(AboutSuperMarket)
 
 </script>
 
@@ -55,6 +58,7 @@ const dataBlogS = ref(blogSuggestData)
             <Discount :dataDiscount="dataDiscountOffer" />
             <MostBrands :dataMostBrands="datamost" />
             <BlogSuggest :dataBlog="dataBlogS"/>
+            <AboutMarket :dataAbout="dataAboutMarket"/>
         </div>
     </div>
 </template>

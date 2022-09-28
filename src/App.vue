@@ -1,13 +1,18 @@
 <script setup>
+  import { ref, provide } from 'vue';
 import Header from './components/global/Header/Header.vue';
 import Footer from './components/global/Footer/Footer.vue'; 
 import "swiper/css/navigation";
 import 'swiper/css';
 
+const main = ref(null)
+provide('main', main)
+
 </script>
 
 <template>
-  <Header />
+  <Header style="z-index: 20;" />
+  <div ref="main"></div>
   <router-view />
   <Footer />
 </template>
@@ -33,6 +38,18 @@ body {
   box-sizing: border-box;
   font-family: 'yekan';
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
 
 .lazyloaded {
   opacity: 1;
