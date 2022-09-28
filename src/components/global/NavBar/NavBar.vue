@@ -35,7 +35,7 @@ function leave1() {
                     دسته&zwnj;بندی کالاها
                 </span>
                 <div class="absolute w-full top-4">&nbsp;</div>
-            <div class="mega-menu-d absolute top-[28px] opacity- flex bg-neutral000  text-white z-50 shadow-md rounded-b-md transition-all duration-700"
+            <div class="mega-menu-d absolute top-[26px] opacity- flex bg-neutral000 text-white z-50 shadow-md rounded-b-md transition-all duration-700"
                 :class="{'opacity-100 ' : show}"
                     style="width: calc(100vw - 40%);" v-show="show" @mouseover="hover1" @mouseleave="leave1">
                     <MegaMenu />
@@ -49,7 +49,7 @@ function leave1() {
                     </router-link>
                 </li>
                 <li class="ml-3">
-                    <router-link to="./" class="text-sm text-neutral700">
+                    <router-link :to="{ name : 'bestSelling'}" class="text-sm text-neutral700">
                         <i class="uil uil-fire text-iconLowEmphasis text-lg"></i>
                         پرفروش&zwnj;ترین&zwnj;ها
                     </router-link>
@@ -75,7 +75,7 @@ function leave1() {
                     <router-link to="./" class="text-sm  text-neutral700"> فروشنده شوید! </router-link>
                 </li>
             </ul>
-            <div class="absolute bottom-0 right-0 w-[120px] h-[2px] bg-primary700"> </div>
+            <!-- <div class="absolute bottom-0 right-0 w-[120px] h-[2px] bg-primary700"> </div> -->
         </div>
         <div>
             <div class="flex items-center cursor-pointer" @clicl="showModalCity">
