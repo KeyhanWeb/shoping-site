@@ -1,0 +1,451 @@
+export default [
+    {
+        all: [
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/1.jpg"),
+                title: "هندزفری بلوتوثی مدل inpoud 12",
+                star: "3.9",
+                price: "88.800",
+                off: "2%",
+                OldPrice: "4.320,000",
+                NumberPro: 1,
+                status:"موجود در انبار دیجی کالا",
+                none: "hidden",
+                icon:"uil uil-image-check",
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/2.jpg"),
+                ImgSell: require("@/assets/images/BestSeller/sell.png"),
+                title: "گوشی سامسونگ مدل  Galexsi A14 گیگابایت",
+                star: "4.5",
+                price: "4,219,000",
+                off: "2%",
+                icon:"uil uil-image-check",
+                status:"موجود در انبار دیجی کالا",
+                OldPrice: "4.320,000",
+                NumberPro: 2
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/3.jpg"),
+                title: "خودکار فوق رون انتی باکتریال پنتر مدل Dr.Penter DP-105",
+                star: "4.4",
+                price: "6,400",
+                NumberPro: 3,
+                off: "2%",
+                icon:"uil uil-image-check",
+                status:"موجود در انبار دیجی کالا",
+                OldPrice: "4.320,000",
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/4.jpg"),
+                title: "کنسرو های تن ماهی مکنزی  180 - گرم ",
+                star: "4.2",
+                price: "35,000",
+                NumberPro: 4,
+                off: "2%",
+                icon:"uil uil-image-check",
+                status:"موجود در انبار دیجی کالا",
+                OldPrice: "4.320,000",
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/5.jpg"),
+                title: "زعفران سحر خیز  4.680",
+                star: "4.4",
+                price: "204,000",
+                off: "20%",
+                OldPrice: "255,000",
+                icon:"uil uil-car",
+                status:"ارسال سریع سوپر مارکتی ",
+                NumberPro: 5,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/6.jpg"),
+                title: "لامپ 12 وات  لیتومکس مدل  001",
+                star: "4.1",
+                price: "35,000",
+                NumberPro: 6,
+                icon:"uil uil-car",
+                status:"ارسال سریع سوپر مارکتی ",
+                off: "2%",
+                OldPrice: "4.320,000",
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/7.jpg"),
+                title: "قرص جوشان ویتامین  c  1000 میلی گرم بسته 20 عددی",
+                star: "4.3",
+                price: "20,000",
+                OldPrice: "50,200",
+                icon:"uil uil-car",
+                status:"ارسال سریع سوپر مارکتی ",
+                off: "60%",
+                NumberPro: 7,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/8.jpg"),
+                ImgSell: require("@/assets/images/BestSeller/sell.png"),
+
+                title: "اسپاگتی مدل زر ماکارون مقدار  700 گرم ",
+                star: "4.3",
+                price: "22.800",
+                off: "5%",
+                OldPrice: "25,000",
+                icon:"uil uil-car",
+                status:"ارسال سریع سوپر مارکتی ",
+                NumberPro: 8
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/9.jpg"),
+                title: "زعفران مصطفوی  4.800 گرم",
+                star: "4.4",
+                price: "170.000",
+                icon:"uil uil-user-check",
+                status:"ارسال فروشنده",
+                off: "30%",
+                OldPrice: "250,000",
+                NumberPro: 9,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/10.jpg"),
+                title: "دستمال کاغذی 250 برگی مدل پاپی 009",
+                star: "4.4",
+                price: "216,110",
+                icon:"uil uil-user-check",
+                status:"ارسال فروشنده",
+                off: "3%",
+                OldPrice: "222,800",
+                NumberPro: 10,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/11.jpg"),
+                title: "هدفون بی سیم مدل bth-290",
+                star: "4.1",
+                price: "181,000",
+                icon:"uil uil-user-check",
+                status:"ارسال فروشنده",
+
+                NumberPro: 11,
+                off: "2%",
+                OldPrice: "4.320,000",
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/12.jpg"),
+                ImgSell: require("@/assets/images/BestSeller/sell.png"),
+
+                title: "لامپ  ال دی 15 وات لیتو مکس مدل 001 پایه E21",
+                star: "4.1",
+                price: "50,000",
+                icon:"uil uil-user-check",
+                status:"ارسال فروشنده",
+                off: "2%",
+                OldPrice: "4.320,000",
+                NumberPro: 12
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/13.jpg"),
+                title: "پوشک مای بیبی  ابی سران مهربان با پوست سایز  4 بسته 34",
+                star: "4.3",
+                price: "150,300",
+                OldPrice: "160,000",
+                icon:"uil uil-car",
+                status:"ارسال سریع سوپر مارکتی ",
+                off: "3%",
+                NumberPro: 13,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/14.jpg"),
+                title: "خامه صبحانه کاله حجم 250 لیتر ",
+                star: "4.3",
+                price: "197,000",
+                OldPrice: "23,000",
+                off: "15%",
+                icon:"uil uil-image-check",
+                status:"موجود در انبار دیجی کالا",
+                NumberPro: 14,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/15.jpg"),
+                title: "مایع ظرفشویی ریل مدل  lender  حجم 3.75",
+                star: "4.3",
+                price: "87.900",
+                OldPrice: "106,000",
+                icon:"uil uil-car",
+                status:"ارسال سریع سوپر مارکتی ",
+                off: "17%",
+                NumberPro: 15,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/16.jpg"),
+                ImgSell: require("@/assets/images/BestSeller/sell.png"),
+
+                title: " هدفون بی سیم کیو وای  مدل T-13",
+                star: "4.3",
+                price: "403,000",
+                off: "10%",
+                icon:"uil uil-image-check",
+                status:"موجود در انبار دیجی کالا",
+                OldPrice: "450,000",
+                NumberPro: 16
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/17.jpg"),
+                title: "فلوئید مدل ضد اب Aside  حجم 50 میلی لیتر ",
+                star: "4.4",
+                price: "89,000",
+                off: "10%",
+                OldPrice: "108,800",
+                icon:"uil uil-car",
+                status:"ارسال سریع سوپر مارکتی ",
+                NumberPro: 17,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/18.jpg"),
+                title: " پک ارایش پاک کن مدل 01",
+                star: "4.4",
+                price: "209,900",
+                off: "2%",
+                OldPrice: "4.320,000",
+                icon:"uil uil-car",
+                status:"ارسال سریع سوپر مارکتی ",
+                NumberPro: 18,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/19.jpg"),
+                ImgSell: require("@/assets/images/BestSeller/sell.png"),
+
+                title: " اب معدنی اکوا پرایم  - 1500 میلی لیتر  بسته ی 6 عددی ",
+                star: "4.2",
+                price: "24,500",
+                off: "30%",
+                OldPrice: "34,800",
+                icon:"uil uil-image-check",
+                status:"موجود در انبار دیجی کالا",
+                NumberPro: 19,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/20.jpg"),
+                title: "رب گرجه مکنزی مثدار  800 گرم ",
+                star: "4.2",
+                price: "39,000",
+                off: "13%",
+                OldPrice: "45,000",
+                icon:"uil uil-car",
+                status:"ارسال سریع سوپر مارکتی ",
+                NumberPro: 20,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/21.jpg"),
+                title: "خودکار کیان نوک 0.7 میلی متری بسته5 عددی",
+                star: "3.9",
+                price: "14,000",
+                NumberPro: 21,
+                icon:"uil uil-user-check",
+                status:"ارسال فروشنده",
+                off: "2%",
+                OldPrice: "4.320,000",
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/22.jpg"),
+                title: " سس گوجه فرنگی بیژن 550 گرم",
+                star: "4.3",
+                price: "28,900",
+                off: "20%",
+                OldPrice: "26,900",
+                icon:"uil uil-image-check",
+                status:"موجود در انبار دیجی کالا",
+                NumberPro: 22,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/23.jpg"),
+                ImgSell: require("@/assets/images/BestSeller/sell.png"),
+
+                title: "شامپو پرژک مدل  سیر حجم  450 میلی لیتر ",
+                star: "4.3",
+                price: "28,900",
+                off: "12%",
+                icon:"uil uil-user-check",
+                status:"ارسال فروشنده",
+                OldPrice: "32,000",
+                NumberPro: 23
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/24.jpg"),
+                title: "مایع لباسشویی پرسیل  یونیر سال وزن 2.7 کیوگرم",
+                star: "4.3",
+                price: "133,000",
+                off: "5%",
+                OldPrice: "140,000",
+                icon:"uil uil-car",
+                status:"ارسال سریع سوپر مارکتی ",
+                NumberPro: 24,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/25.jpg"),
+                title: "کپسول هیل هیریت  بسته 30 عددی ",
+                star: "4.3",
+                price: "270,960",
+                off: "69%",
+                OldPrice: "89,000",
+                icon:"uil uil-user-check",
+                status:"ارسال فروشنده",
+                NumberPro: 25,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/26.jpg"),
+                title: "رب گوجه فرنگی کامبیز  1070   گرم ",
+                ImgSell: require("@/assets/images/BestSeller/sell.png"),
+
+                star: "4.4",
+                price: "50,000",
+                off: "8%",
+                icon:"uil uil-car",
+                status:"ارسال سریع سوپر مارکتی ",
+                OldPrice: "54,000",
+                NumberPro: 26
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/27.jpg"),
+                title: "پایه نگهدارنده گوشی موبایل و تبلت  ینیور سال مدل ",
+                star: "3.9",
+                price: "8.800",
+                NumberPro: 27,
+                off: "2%",
+                icon:"uil uil-image-check",
+                status:"موجود در انبار دیجی کالا",
+                OldPrice: "4.320,000",
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/28.jpg"),
+                title: "پنیر تازه رامک",
+                star: "4.2",
+                price: "56,000",
+                off: "2%",
+                OldPrice: "4.320,000",
+                icon:"uil uil-user-check",
+                status:"ارسال فروشنده",
+                NumberPro: 28,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/29.jpg"),
+                ImgSell: require("@/assets/images/BestSeller/sell.png"),
+
+                title: "مداد مشکی البرز gp بسته 12 عددی ",
+                star: "4.1",
+                price: "18,000",
+                off: "2%",
+                icon:"uil uil-image-check",
+                status:"موجود در انبار دیجی کالا",
+                OldPrice: "4.320,000",
+                NumberPro: 29
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/30.jpg"),
+                title: "رب گوجه فرنگی چین چین - 800 گرم ",
+                star: "4.2",
+                price: "39,000",
+                off: "13%",
+                icon:"uil uil-car",
+                status:"ارسال سریع سوپر مارکتی ",
+                OldPrice: "45,000",
+                NumberPro: 30,
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/31.jpg"),
+                title: "پنیر پنج ستاره امل کلاسیک  -400 گرم ",
+                star: "3.9",
+                price: "88.800",
+                NumberPro: 31,
+                icon:"uil uil-image-check",
+                status:"موجود در انبار دیجی کالا",
+                off: "2%",
+                OldPrice: "4.320,000",
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/32.jpg"),
+                ImgSell: require("@/assets/images/BestSeller/sell.png"),
+
+                title: "اسپری حشره کش  کامن مدل POWERFULL حجم 480",
+                star: "3.9",
+                price: "88.800",
+                off: "2%",
+                icon:"uil uil-car",
+                status:"ارسال سریع سوپر مارکتی ",
+                OldPrice: "4.320,000",
+                NumberPro: 32
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/33.jpg"),
+                title: "هندزفری بلوتوثی مدل inpoud 12",
+                star: "3.9",
+                price: "52,000",
+                NumberPro: 33,
+                icon:"uil uil-image-check",
+                status:"موجود در انبار دیجی کالا",
+                off: "2%",
+                OldPrice: "4.320,000",
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/34.jpg"),
+                ImgSell: require("@/assets/images/BestSeller/sell.png"),
+                title: "هدفون بیسم هایلو ",
+                star: "4.2",
+                price: "505,000",
+                icon:"uil uil-image-check",
+                status:"موجود در انبار دیجی کالا",
+                off: "8%",
+                OldPrice: "550,000",
+                NumberPro: 34
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/35.jpg"),
+                title: "آستین کنترل کننده انگشت",
+                star: "4.1",
+                price: "8.900",
+                NumberPro: 35,
+                off: "2%",
+                OldPrice: "4.320,000",
+                icon:"uil uil-user-check",
+                status:"ارسال فروشنده",
+                none: "hidden"
+            },
+            {
+                ImgBest: require("@/assets/images/BestSeller/AllProduct/36.jpg"),
+                ImgSell: require("@/assets/images/BestSeller/sell.png"),
+
+                title: "ماست هم زاده می ماس -1800 گرم ",
+                star: "4.4",
+                price: "46.000",
+                icon:"uil uil-image-check",
+                status:"موجود در انبار دیجی کالا",
+                off: "34%",
+                OldPrice: "71,000",
+                NumberPro: 36
+            },
+  
+        ]
+    }
+
+]

@@ -1,3 +1,10 @@
-<script setup></script>
+<script setup>
+import ParentSerllers from '@/components/best-selling/ParentSerllers.vue';
 
-<template></template>
+
+    
+</script>
+
+<template>
+<ParentSerllers/>
+</template>
