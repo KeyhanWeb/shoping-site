@@ -1,4 +1,3 @@
-
 <script setup>
 import { defineProps } from "vue";
 const props = defineProps(["data"]);
@@ -13,7 +12,7 @@ console.log(props);
         <!-- The right part of the cut in Responsive -->
         <div class="right-card relative">
           <!-- Top selling photo -->
-          <img :src="card.ImgSell" alt="" class="w-16 h-5 absolute -top-7 md:-top-8" :class="card.none" />
+          <img :src="card.ImgSell" alt="" class="w-16 h-5 absolute top-7 md:-top-8" :class="card.none" />
           <!--Number card -->
          
           <div class="
