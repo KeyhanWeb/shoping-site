@@ -16,10 +16,10 @@ const selectCategory = (id) => {
     <div class="w-full flex py-2 px-1 overflow-hidden shadow-md rounded-md">
         <div class="flex flex-col w-[200px] text-[12px] border-l border-neutral200 text-neutral700">
             <div v-for="data in dataCat">
-                <a class="w-full flex items-center py-[10px] px-2 box-border hover:bg-[#f7f7f7] hover:text-primary500" href="#" @mouseover="selectCategory(data.id)">
+                <router-link :to="{name : 'main'}" class="w-full flex items-center py-[10px] px-2 box-border hover:bg-[#f7f7f7] hover:text-primary500" @mouseover="selectCategory(data.id)">
                     <i class="ml-2 text-lg" :class="data.iconTitle"></i>
                     <p>{{ data.title }}</p>
-                </a>
+                </router-link>
             </div>
         </div>
         <div class="flex flex-col pt-3 pb-5 px-6 w-[80%]">
@@ -37,9 +37,6 @@ const selectCategory = (id) => {
 
 <style> 
 
-.test {
-    color: #fafafa;
-}
 </style>
 
 

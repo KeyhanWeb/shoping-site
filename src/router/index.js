@@ -8,10 +8,13 @@ const routes = [
     component: HomeView,
   },
   {
-    path: "/",
+    path: "/main",
     name: "main",
     component: () =>
     import(/* webpackChunkName: "main" */ "../views/Main.vue"),
+    children : [
+      { path:':slug', name:'categoryProduct', component: () => import('@/components/main/categoryProduct.vue') },
+    ]
   },
   {
     path: "/market",
