@@ -35,7 +35,6 @@ const imgPelatform = reactive([
     // imgApp: require("../../assets/img/footer/More.svg"),
   },
 ]);
-console.log("test");
 
 const imgServices = reactive([
   {

@@ -13,7 +13,7 @@ const routes = [
     component: () =>
     import(/* webpackChunkName: "main" */ "../views/Main.vue"),
     children : [
-      { path:':slug', name:'categoryProduct', component: () => import('@/components/main/categoryProduct.vue') },
+      { path:':id', name:'categoryProduct', component: () => import('@/components/main/categoryProduct.vue') },
     ]
   },
   {

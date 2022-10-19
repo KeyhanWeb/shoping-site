@@ -10,7 +10,7 @@ import NavBar from '../NavBar/NavBar.vue';
 
         <!-- logo -->
         <div class="h-8">
-          <router-link to="./">
+          <router-link to="/">
             <img src="@/assets/images/logo.svg" class="h-full cursor-pointer" alt="logo" />
           </router-link>
         </div>
